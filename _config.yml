@@ -18,17 +18,17 @@
 ##############################
 text_skin: default # "default" (default), "dark", "forest", "ocean", "chocolate", "orange"
 highlight_theme: default # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
-url     : "http://www.snail-cafe.cn" # the base hostname & protocol for your site e.g. https://www.someone.com
+url     : "https://www.snail-cafe.cn" # the base hostname & protocol for your site e.g. https://www.someone.com
 baseurl : # does not include hostname
 title   : "蜗牛咖啡馆"
 description: > # this means to ignore newlines until "Language & timezone"
-  
+  闲话投资理财，漫聊量化技术
 
 
 ## => Language and Timezone
 ##############################
 lang: zh # the language of your site, default as "en"
-timezone: CN # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for the available values
+timezone: Asia/Shanghai # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for the available values
 
 
 ## => Author and Social
@@ -118,11 +118,11 @@ sharing:
 ## => Comments
 ##############################
 comments:
-  provider: false # false (default), "disqus", "gitalk", "valine", "custom"
+  provider: disqus # false (default), "disqus", "gitalk", "valine", "custom"
 
   ## Disqus
   disqus:
-    shortname: # the Disqus shortname for the site
+    shortname: "snail-cafe-cn" # the Disqus shortname for the site
 
   ## Gitalk
   # please refer to https://github.com/gitalk/gitalk for more info.
