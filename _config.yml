@@ -22,7 +22,7 @@ url     : "https://shekilyu.github.io" # the base hostname & protocol for your s
 baseurl : # does not include hostname
 title   : "蜗牛咖啡馆"
 description: > # this means to ignore newlines until "Language & timezone"
-  闲话投资理财，漫聊量化技术
+  关注低风险投资策略，追求确定性盈利机会。
 
 
 ## => Language and Timezone
